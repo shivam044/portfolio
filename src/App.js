@@ -1,3 +1,10 @@
+/**
+ * File name: App.js
+ * Student's Name: Shivam Ujjainwal
+ * StudentID: 301304093
+ * Date: 2024-05-31
+ */
+
 import React, { useState, useEffect } from "react";
 import Preloader from "../src/components/Pre";
 import Navbar from "./components/Navbar";
@@ -6,6 +13,9 @@ import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
 import Footer from "./components/Footer";
 import Resume from "./components/Resume/ResumeNew";
+import Services from "./components/services/services";
+import Contact from "./components/ContactME/contactMe";
+
 import {
   BrowserRouter as Router,
   Route,
@@ -39,6 +49,8 @@ function App() {
           <Route path="/project" element={<Projects />} />
           <Route path="/about" element={<About />} />
           <Route path="/resume" element={<Resume />} />
+          <Route path="/services" element={<Services />} />
+          <Route path="/contactMe" element={<Contact />} />
           <Route path="*" element={<Navigate to="/"/>} />
         </Routes>
         <Footer />

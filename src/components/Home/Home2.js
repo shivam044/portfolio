@@ -1,3 +1,10 @@
+/**
+ * File name: Home2.js
+ * Student's Name: Shivam Ujjainwal
+ * StudentID: 301304093
+ * Date: 2024-05-31
+ */
+
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/avatar_circle.png";
@@ -49,6 +56,14 @@ function Home2() {
               &nbsp; like
               <i>
                 <b className="purple"> React.js and Next.js</b>
+              </i>
+              <br />
+              <br />
+              <i>
+                <b className="purple">Mission Statement:</b>
+                <br />
+                "To innovate and create impactful web technologies and products
+                that enhance user experiences and drive the digital world forward."
               </i>
             </p>
           </Col>
@@ -112,4 +127,5 @@ function Home2() {
     </Container>
   );
 }
+
 export default Home2;

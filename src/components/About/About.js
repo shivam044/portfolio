@@ -1,10 +1,17 @@
+/**
+ * File name: About.js
+ * Student's Name: Shivam Ujjainwal
+ * StudentID: 301304093
+ * Date: 2024-05-31
+ */
+
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
 import Github from "./Github";
 import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
-import laptopImg from "../../Assets/about.png";
+import laptopImg from "../../Assets/1714198222793.jpeg";
 import Toolstack from "./Toolstack";
 
 function About() {

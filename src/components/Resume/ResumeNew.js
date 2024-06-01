@@ -1,3 +1,9 @@
+/**
+ * File name: Resume.js
+ * Student's Name: Shivam Ujjainwal
+ * StudentID: 301304093
+ * Date: 2024-05-31
+ */
 import React, { useState, useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";

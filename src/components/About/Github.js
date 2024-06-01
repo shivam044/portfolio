@@ -1,3 +1,9 @@
+/**
+ * File name: Github.js
+ * Student's Name: Shivam Ujjainwal
+ * StudentID: 301304093
+ * Date: 2024-05-31
+ */
 import React from "react";
 import GitHubCalendar from "react-github-calendar";
 import { Row } from "react-bootstrap";

@@ -1,3 +1,10 @@
+/**
+ * File name: ScroolToTop.js
+ * Student's Name: Shivam Ujjainwal
+ * StudentID: 301304093
+ * Date: 2024-05-31
+ */
+
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 
