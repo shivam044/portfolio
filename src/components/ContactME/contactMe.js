@@ -11,11 +11,11 @@ import Particle from "../Particle";
 
 function Contact() {
   const [formData, setFormData] = useState({
-    firstName: "Shivam",
+    firstName: "",
     lastName: "",
-    contactNumber: "4379331954",
-    email: "shivam.ujjainwal044@gmail.com",
-    message: "Hello Shivam, this is a sample message."
+    contactNumber: "",
+    email: "",
+    message: ""
   });
 
   const handleChange = (e) => {
@@ -25,15 +25,13 @@ function Contact() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Here you can handle form submission, e.g., send data to a server
     alert("Message sent!");
-    // Redirect to home page or clear form
     setFormData({
-      firstName: "Shivam",
+      firstName: "",
       lastName: "",
-      contactNumber: "4379331954",
-      email: "shivam.ujjainwal044@gmail.com",
-      message: "Hello Shivam, this is a sample message."
+      contactNumber: "",
+      email: "",
+      message: ""
     });
     window.location.href = "/";
   };
@@ -41,14 +39,14 @@ function Contact() {
   return (
     <div>
       <Container fluid className="contact-section">
-        <Particle />
-        <Row style={{ justifyContent: "center", padding: "60px" }}>
+        {/* <Particle /> */}
+        <Row style={{ justifyContent: "center", padding: "80px" }}>
           <h1 className="contact-heading">
             <strong className="purple">Get in Touch</strong>
           </h1>
         </Row>
         <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-          <Col md={6}  className="contact-info purple" style={{ display: "flex", flexDirection: "column", justifyContent: "center" }}>
+          <Col md={6} className="contact-info purple" style={{ display: "flex", flexDirection: "column", justifyContent: "center" }}>
             <h3>Contact Information</h3>
             <p>
               <strong>Phone:</strong> 4379331954
@@ -110,7 +108,7 @@ function Contact() {
                   required
                 />
               </Form.Group>
-              <Button style={{marginTop:"20px"}} variant="primary" type="submit">
+              <Button style={{ marginTop: "20px" }} variant="primary" type="submit">
                 Send Message
               </Button>
             </Form>
