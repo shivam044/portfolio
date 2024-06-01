@@ -1,6 +1,6 @@
 <h2 align="center">
   Portfolio Website - v2.0<br/>
-  <!-- <a href="https://shivam.vercel.app/" target="_blank">shivam.tech</a> -->
+  <a href="https://portfolio-beige-nine-92.vercel.app/" target="_blank">shivam.tech</a>
 </h2>
 <div align="center">
   <!-- <img alt="Demo" src="./Images/readme-img1.png" /> -->
